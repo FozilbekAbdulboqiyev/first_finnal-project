@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    background-image: url(./img/download.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.clock{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+}
+.num{
+    position: absolute;
+    font-size: 70px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Dancing Script", cursive;;
+}
+.num1{
+    right: 130px;
+    top: 50px;
+}
+.num2{
+    right: 60px;
+    top: 120px;
+}
+.num3{
+    right: 20px;
+}
+.num4{
+    right: 60px;
+    bottom: 120px;
+}
+.num5{
+    right: 130px;
+    bottom: 50px;
+}
+.num6{
+    bottom:20px ;
+}
+.num7{
+    left: 130px;
+    bottom: 50px;
+}
+.num8{
+    left: 60px;
+    bottom: 120px;
+}
+.num9{
+    left: 20px;
+}
+.num10{
+    left: 40px;
+    top: 120px
+}
+.num11{
+    left: 110px;
+    top: 50px;
+}
+.num12{
+    top: 20px;
+}
+.sec{
+    position: absolute;
+    height: 400px;
+    width: 3px;
+    animation: sec 60s infinite linear;
+    border-radius: 30px 30px 0 0;
+}
+@keyframes sec{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.min{
+    position: absolute;
+    height: 350px;
+    width: 10px;
+    animation: sec 3600s infinite linear;
+
+}
+@keyframes min{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.hour{
+    position: absolute;
+    height: 250px;
+    width: 10px;
+    animation: sec 10000s infinite linear;
+}
+@keyframes hour{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box1{
+    height: 55%;
+    width: 100%;
+    border-radius: 100px;
+    background-color: black;
+}
+.sec .box1:first-child{
+    background-color: red;
+}
+.box2{
+    height: 45%;
+    width: 100%;
+    background-color: transparent;
+}
+.circle{
+    position: absolute;
+    z-index: 9;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:  white;
+}
