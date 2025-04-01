@@ -6,7 +6,7 @@
 .container{
     max-width: 1260px;
     width: 100%;
-    height: 500vh;
+    height: 800vh;
     border: 2px solid red;
     margin: 0 auto;
     padding: 0 30px;
@@ -76,12 +76,14 @@ button:hover{
     background-color: rgb(229, 229, 229);
 }
 .banner{
+    width: 1260px;
     height: 600px;
     background-image: url(../assets/icon/foto/interactive.png);
     display: flex;
     align-items: start;
     justify-content: center;
     padding-top: 85px;
+    margin-left: -30px;
 }
 .banner .title{
     width: 506px;
@@ -127,6 +129,9 @@ button:hover{
     right: -5px;
     z-index: -1;
 }
+.feedback{
+     margin-left: 50px;
+}
 .feedback .wrap{
     display: flex;
     align-items: center;
@@ -146,6 +151,7 @@ button:hover{
     align-items: center;
     justify-content: space-between;
     margin-top: 100px;
+    margin-left: 50px;
 }
 .advantage .box{
     width: 252px;
@@ -208,6 +214,7 @@ button:hover{
     width: 1080px;
     height: 542px;
     position: relative;
+    margin-left: 50px;
 }
 .cards{
     display: flex;
@@ -243,6 +250,7 @@ button:hover{
 .items{
     width: 960px;
     height: 322px;
+    margin-left: 50px;
 }
 .items_cards{
     display: flex;
@@ -274,3 +282,295 @@ button:hover{
 .items .items_card p{
     color: gray;
 }
+.osnovnoe_buttons{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.osnovnoe_buttons .osnovnoe_title{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.osnovnoe_buttons .osnovnoe_title button{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 28px;
+}
+.osnovnoe_buttons .boxs button{
+    width: 96px;
+    height: 96px;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    border: none;
+}
+.box_5{
+        display: flex;
+        gap: 90px;
+}
+.box_6{
+    display: flex;
+    gap: 90px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+ p{
+    font-weight: 700;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.third_banner{
+   width: 1163px;
+   height: 597px;
+   margin-left: -30px;
+   margin-top: 130px;
+}
+.bgr{
+    width: 1955px;
+    height: 343px;
+    background-image: url(../assets/icon/foto/background.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.third_banner .bgr img{
+    margin-left: 83px;
+    margin-top: 50px;
+}
+.third_banner .bgr .bgr_foto h2{
+    margin-left: 83px;
+    color: white;
+    margin-top: 12px;
+}
+.third_banner .bgr .bgr_foto p{
+    margin-left: 83px;
+    margin-top: 5px;
+    color: gray;
+}
+.bgr_title{
+   margin-top: 50px;
+   margin-left: 45px;
+   color: white;
+}
+.bgr_title h1{
+    line-height: 32px;   
+}
+.bgr_title p{
+    line-height: 20px;
+}
+.bgr_2{
+   margin-top: 176px;
+   margin-left: -650px;
+}
+.bgr_3{
+    margin-top: 230px;
+    margin-left: -650px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-left: 103px;
+}
+.news{
+    position: relative;
+}
+.under_line{
+    width: 110px;
+    height: 6px;
+    background-color: #ffa630;
+    position: sticky;
+    right: 900px;
+    top: 32px;
+    z-index: -1;
+}
+.line_1{
+    width: 448px;
+    height: 2px;
+    background-color: gray;
+    margin-top: 70px;
+}
+.news_2{
+    margin-top: 10px;
+}
+.title .news p{
+    margin-left: -1px;
+    color: gainsboro;
+}
+.date{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.title .news .date p{
+    color: #10bb87;
+}
+.title .news .date img{
+    margin-top: 15px;
+}
+.title .news_2 h1{
+    color: #fff;
+}
+.title .news_2 p{
+    margin-left: -1px;
+    color: gainsboro;
+}
+.title .news_2 .date p{
+    color: #10bb87;
+}
+.title .news_2 .date img{
+    margin-top: 15px;
+}
+.select{
+    display: flex;
+    gap: 60px;
+    margin-left: 103px;
+    margin-top: 100px;
+}
+.selectr{
+    width: 458px;
+   flex-wrap: wrap;
+   margin-top: 70px;
+}
+select{
+    margin-top: 5px;
+    width: 448px;
+    height: 62px;
+    
+}
+.unw{
+    color: #fff;
+}
+.inputs{
+    width: 960px;
+    height: 248px;
+    background-color: #10bb87;
+    border-radius: 25px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.inputs_title{
+    margin-left: 96px;
+}
+.inputs_title h1{
+    margin-left: 10px;
+    color: white;
+}
+.inputs_title p{
+    color: gray;
+    margin-top: 44px;
+}
+input{
+    width: 324px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 100px;
+}
+.input label{
+    margin-left: 100px;
+}
+.tex{
+    width: 256px;
+}
+.input_btn input{
+    width: 40px;
+    height: 40px;
+    margin-top: 130px;
+    margin-left: -50px;
+}
+footer{
+    width: 1260px;
+    height: 566px;
+    background-color: #f2f2f2;
+    margin-left: -30px;
+    margin-top: 140px;
+    display: grid;
+    grid-template-areas: 
+    "nav li li li " "nav li li li"
+    "nav li li li" "foot foot foot foot"
+    ;
+}
+.nav{
+    grid-area: nav;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+.li_{
+    grid-area: li;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.foot{
+    grid-area: foot;
+}
+.nav img{
+    margin-left: 83px;
+}
+.li_ ul{
+    margin-top: 20px;
+}
+footer .li_ ul {
+  display: flex;
+  align-items: center;
+  gap: 109px;
+}
+footer .li_ ul .line_1{
+    margin-top: -5px;
+    margin-left: 10px;
+}
+footer .li_ ul{
+    list-style: none;
+}
+footer .li_ ul li a{
+    text-decoration: none;
+    color: black;
+}
+.line_4{
+   width: 800px;
+   background-color: gray;
+   height: 2px;
+}
+.btn_f{
+    margin-top: 10px;
+}
+.btn_f button{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background: #fff;
+    border: none;
+    margin-left: 33px;
+}
+.foot{
+    margin-top: 70px;
+}
+footer .foot .mas {
+    display: flex;
+    align-items: center;
+    gap: 139px;
+    margin-top: -50px;
+    margin-left: 150px;
+  }
+  footer .foot ul{
+      list-style: none;
+  }
+  footer .foot ul li a{
+      text-decoration: none;
+      color: black;
+  }
+  .num1{
+    display: flex;
+    gap: 100px;
+    margin-left: 330px;
+    margin-top: 10px;
+  }
+.num{
+   margin-top: 110px; 
+   margin-left: -100px;
+   display: flex;
+   gap: 100px ;
+  }
