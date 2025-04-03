@@ -13,8 +13,9 @@
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px 0;
+    margin: auto;
 }
 .header_supwrap {
     display: flex;
@@ -75,9 +76,10 @@ button:hover{
     background-color: rgb(229, 229, 229);
 }
 .banner{
-    width: 1260px;
     height: 600px;
     background-image: url(../assets/icon/foto/interactive.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: start;
     justify-content: center;
@@ -88,6 +90,7 @@ button:hover{
     width: 506px;
     margin: 85px 0 150px 0;
     text-align: center;
+    margin-left: 250px;
 }
 .banner .title h1{
     line-height: 44px;
@@ -144,13 +147,13 @@ button:hover{
     gap: 44px;
 }
 .advantage{
-    width: 1200px;
+    width: inherit;
     height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 .advantage .box{
     width: 252px;
@@ -213,7 +216,6 @@ button:hover{
     width: 1080px;
     height: 542px;
     position: relative;
-    margin-left: 50px;
 }
 .cards{
     display: flex;
@@ -248,8 +250,7 @@ button:hover{
 }
 .items{
     width: 960px;
-    height: 322px;
-    margin-left: 50px;
+    height: 322px
 }
 .items_cards{
     display: flex;
@@ -259,6 +260,7 @@ button:hover{
 .items .items_title{
     display: flex;
     align-items: center;
+    margin-top: 100px;
 }
 .items .items_title button{
     width: 40px;
@@ -308,11 +310,12 @@ button:hover{
 }
 .box_5{
         display: flex;
-        gap: 90px;
+        gap: 100px;
+        margin-top: 50px;
 }
 .box_6{
     display: flex;
-    gap: 90px;
+    gap: 100px;
     margin-top: 50px;
     margin-left: 100px;
 }
@@ -367,7 +370,7 @@ button:hover{
     margin-top: 230px;
     margin-left: -650px;
 }
-.title{
+.titles{
     display: flex;
     align-items: center;
     gap: 60px;
@@ -394,7 +397,7 @@ button:hover{
 .news_2{
     margin-top: 10px;
 }
-.title .news p{
+.titles .news p{
     margin-left: -1px;
     color: gainsboro;
 }
@@ -403,23 +406,23 @@ button:hover{
     align-items: center;
     gap: 30px;
 }
-.title .news .date p{
+.titles .news .date p{
     color: #10bb87;
 }
-.title .news .date img{
+.titles .news .date img{
     margin-top: 15px;
 }
-.title .news_2 h1{
+.titles .news_2 h1{
     color: #fff;
 }
-.title .news_2 p{
+.titles .news_2 p{
     margin-left: -1px;
     color: gainsboro;
 }
-.title .news_2 .date p{
+.titles .news_2 .date p{
     color: #10bb87;
 }
-.title .news_2 .date img{
+.titles .news_2 .date img{
     margin-top: 15px;
 }
 .select{
@@ -453,6 +456,7 @@ select{
 }
 .inputs_title{
     margin-left: 96px;
+    margin-top: 50px;
 }
 .inputs_title h1{
     margin-left: 10px;
@@ -462,6 +466,9 @@ select{
     color: gray;
     margin-top: 44px;
 }
+.input_{
+    margin-top: 40px;
+}
 input{
     width: 324px;
     height: 40px;
@@ -469,17 +476,19 @@ input{
     border: none;
     margin-left: 100px;
 }
-.input label{
+.input_ label{
     margin-left: 100px;
+    margin-top: 50px;
 }
 .tex{
     width: 256px;
 }
 .input_btn input{
-    width: 40px;
-    height: 40px;
-    margin-top: 130px;
+    width: 45px;
+    height: 45px;
+    margin-top: 160px;
     margin-left: -50px;
+
 }
 footer{
     width: 1260px;
